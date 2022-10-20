@@ -11,3 +11,5 @@ sudo apt install gunicorn3
 sudo apt install awscli
 aws configure
 
+sudo apt install python3-flask
+
