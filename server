@@ -22,3 +22,5 @@ gunicorn3 app:app
 sudo apt install python3-flask
 
 ssh -i flask-application.pem ubuntu@54.183.186.98
+
+flask run -h localhost -p 8000

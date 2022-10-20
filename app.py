@@ -6,8 +6,8 @@ from flask_cors import CORS, cross_origin
 from werkzeug.utils import secure_filename
 import boto3
 
-AWS_ACCESS_KEY_ID='AKIAYUWWDA4TBFVTOXBR'
-AWS_SECRET_ACCESS_KEY='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'
+AWS_ACCESS_KEY_ID='xxxx'
+AWS_SECRET_ACCESS_KEY='XXXX'
 REGION_NAME='us-east-1'
 
 s3 = boto3.client('s3',
