@@ -1,0 +1,13 @@
+EC2 setup
+
+sudo apt update
+sudo apt-get install python3.8.9
+python3 --version
+sudo apt install python3-pip
+pip3 install flask
+pip3 —version
+sudo apt install nginx
+sudo apt install gunicorn3
+sudo apt install awscli
+aws configure
+
